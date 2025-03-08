@@ -1,0 +1,2 @@
+# myJavaProject
+Stocking exchange
