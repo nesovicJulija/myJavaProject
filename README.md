@@ -12,31 +12,31 @@ mvn clean
 sudo snap install postman
 ### 5.Add dependencies into pom.xml
 <dependencies>
-        <!-- Javalin za REST API -->
+        <!-- Javalin for REST API -->
         <dependency>
             <groupId>io.javalin</groupId>
             <artifactId>javalin</artifactId>
             <version>5.6.0</version>
         </dependency>
 
-        <!-- Java-WebSocket za WebSocket -->
+        <!-- Java-WebSocket for WebSocket -->
         <dependency>
             <groupId>org.java-websocket</groupId>
             <artifactId>Java-WebSocket</artifactId>
             <version>1.5.3</version> <!-- ili odgovarajuća verzija -->
         </dependency>
-        <!-- JSON biblioteka (npr. Gson) -->
+        <!-- JSON library (npr. Gson) -->
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>2.10.1</version>
         </dependency>
 
-        <!-- Jackson za serijalizaciju/deserijalizaciju JSON-a -->
+        <!-- Jackson for serialization/deserialization JSON-a -->
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.15.2</version> <!-- Proveri najnoviju verziju na https://mvnrepository.com -->
+            <version>2.15.2</version>
         </dependency>
 
         <dependency>
