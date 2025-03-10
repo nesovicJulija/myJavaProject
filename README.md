@@ -5,7 +5,7 @@ git clone <repo-url>
 ### 2.Install IntelliJ IDEA
 unpacking the file : tar -xzf ideaIC-*.tar.gz
 redirection to directory where it's unpacked : cd idea-IC-*/bin
-start with : ./idea.sh (mozda je potrebno pre toga chmod +x ime_fajla dati prava pristupa)
+start with : ./idea.sh (before that maybe it's necessary to do : chmod +x file_name for permission rights)
 ### 3.Setting up Maven
 mvn clean
 ### 4.Install Postman
